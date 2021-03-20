@@ -35,7 +35,7 @@ body {
 .mockups .info {
   margin-top: 35px;
   width: 400px;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .mockups .info h1 {
@@ -110,6 +110,7 @@ ul li {
   padding: 15px;
   list-style-type: none;
   color: white;
+  cursor: pointer;
 }
 
 .fb {
