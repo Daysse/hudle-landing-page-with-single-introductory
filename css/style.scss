@@ -1,27 +1,21 @@
 @import 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
-@media screen and (min-width: 375px){
-    
-}
+
 
 body{
-    width: 1440px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.wrap{
-    grid-template-columns: 1fr ;
-    grid-template-rows: 1fr 1fr ;
-}
 
 .background{
     background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
     background-color: $primary-color;
+    width: 1440px;
 }
 .logo{
     padding-top: 40px;
@@ -101,7 +95,8 @@ ul{
     
     display: flex;
     flex-direction: row;
-    margin-left: 1050px;
+    margin-left: 1150px;
+    margin-top: 80px;
     & li{
         border: 2px solid white;
         border-radius: 100%;
